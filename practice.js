@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+let me = {
+  name: `Barry`,
+  age: `34`
+}
+alert(me.name);
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +30,14 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: `El Canto del Loco`,
+  food: `Pizza`,
+  person: `Ron Swanson`,
+  book: `The Greatest Salesman in the World`,
+  movie: `Lord of the Rings: Return of the King`,
+  holiday: `Thanksgiving`
+}
 
 
 /*
@@ -34,6 +45,8 @@
 */
 
 //Code here
+favoriteThings.car = `Bentley`;
+favoriteThings.brand = `Nike`;
 
 
 
@@ -42,7 +55,8 @@
 */
 
 //Code here
-
+favoriteThings.food = `Chicken Nuggets`;
+favoriteThings.book = `Harry Potter`;
 
 
 ////////// PROBLEM 3 //////////
@@ -97,7 +111,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = `Tyler S. McGinnis`;
+user2.email = `tyler.mcginnis@devmounta.in`
 
 
 
