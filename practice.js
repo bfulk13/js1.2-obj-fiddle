@@ -70,6 +70,10 @@ favoriteThings.book = `Harry Potter`;
 */
 
 //Code here
+var backPack = {};
+var item = `firstPocket`;
+backPack[item] = `chapstick`;
+backPack.color = `black`;
 
 
 
@@ -78,7 +82,7 @@ favoriteThings.book = `Harry Potter`;
 */
 
 //Code here
-
+alert(backPack);
 
 
 /*
@@ -135,7 +139,7 @@ user2.email = `tyler.mcginnis@devmounta.in`
 */
 
 //Code Here
-
+let methodCollection = {};
 
 
 /*
@@ -144,7 +148,8 @@ user2.email = `tyler.mcginnis@devmounta.in`
 */
 
 //Code Here
-
+methodCollection.alertHello = function(){alert(`hello`)};
+methodCollection.logHello = function(){console.log(`hello`)};
 
 
 /*
@@ -152,7 +157,8 @@ user2.email = `tyler.mcginnis@devmounta.in`
 */
 
 //Code Here
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 ////////// PROBLEM 6 //////////
@@ -163,7 +169,7 @@ user2.email = `tyler.mcginnis@devmounta.in`
 */
 
 //Code Here
-
+var makePerson = (name,birthday,ssn) => {return{ name,birthday,ssn }};
 
 
 ////////// PROBLEM 7 //////////
@@ -174,5 +180,5 @@ user2.email = `tyler.mcginnis@devmounta.in`
 */
 
 //Code Here
-
+var makeCard = (cardNumber,expirationDate,securityCode) => {return {  }}
 
